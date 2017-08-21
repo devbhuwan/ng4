@@ -10,7 +10,7 @@ import {Http, HttpModule} from '@angular/http';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, '/asset/i18n/', '.json');
+  return new TranslateHttpLoader(http, './i18n/', '.json');
 }
 
 @NgModule({
