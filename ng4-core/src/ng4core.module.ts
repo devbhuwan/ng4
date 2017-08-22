@@ -4,13 +4,10 @@
  *
  */
 
-import { NgModule } from '@angular/core';
-import { Ng4ComponentModule } from './components/buttons/component.module';
+import {NgModule} from '@angular/core';
 
 export function modules() {
-    return [
-        Ng4ComponentModule
-    ];
+    return [];
 }
 
 @NgModule({

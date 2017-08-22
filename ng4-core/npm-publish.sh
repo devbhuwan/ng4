@@ -8,9 +8,9 @@ npm install
 
 echo -n "Are you ready to publish (y/N) ?"
 read -e userReady
-if [ $userReady -eq 'y' ]
-then
+if [ "$userReady" == 'y' ];then
   npm publish
+  echo 'PUBLISHED....'
 else
   echo 'Thank you....'
 fi
