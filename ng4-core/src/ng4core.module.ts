@@ -4,7 +4,7 @@
  *
  */
 
-import {NgModule} from '@angular/core';
+import { NgModule } from '@angular/core';
 
 export function modules() {
     return [];

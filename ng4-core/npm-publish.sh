@@ -2,7 +2,7 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-echo "====== INSTALL AND CLEAN ====== "
+echo "====== INSTALL AND CLEAN ====== $DIR"
 npm run clean
 npm install
 
