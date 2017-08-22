@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  % -licenseHeader %  >
 ;
 var core_1 = require("@angular/core");
-var ng2_alfresco_core_1 = require("ng2-alfresco-core");
+var ng4_core_1 = require("ng4-core");
 projectNameCamelCase %  > Component;
 from;
 './src/<%= projectName %>.component';
@@ -25,7 +25,7 @@ var default_1 = (function () {
 default_1 = __decorate([
     core_1.NgModule({
         imports: [
-            ng2_alfresco_core_1.CoreModule
+            ng4_core_1.CoreModule
         ],
         declarations: [
             , projectNameCamelCase %  > Component

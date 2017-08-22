@@ -10,7 +10,7 @@ import {CoreModule} from 'ng4-core';
   ],
   imports: [
     BrowserModule,
-    CoreModule
+    CoreModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

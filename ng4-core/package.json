@@ -1,7 +1,7 @@
 {
   "name": "ng4-core",
   "description": "",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "author": "Bhuwan Prasad Upadhyay",
   "scripts": {
     "clean": "rimraf dist node_modules typings bundles coverage .npmrc .happypack",
