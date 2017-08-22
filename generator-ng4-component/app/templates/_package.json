@@ -1,8 +1,8 @@
 {
-  "name": "ng4-core",
-  "description": "",
-  "version": "1.0.7",
-  "author": "Bhuwan Prasad Upadhyay",
+  "name": "<%= projectName %>",
+  "description": "<%= description %>",
+  "version": "0.0.1",
+  "author": "<%- projectAuthor %>",
   "scripts": {
     "clean": "rimraf dist node_modules typings bundles coverage .npmrc .happypack",
     "clean-lock": "rimraf package-lock.json",
@@ -13,21 +13,9 @@
     "coverage": "npm run test && wsrv -o -p 9875 ./coverage/report",
     "prepublishOnly": "npm run build"
   },
-  "main": "bundles/ng4-core.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/devbhuwan/ng4.git"
-  },
-  "bugs": {
-    "url": "https://github.com/devbhuwan/ng4/issues"
-  },
-  "contributors": [
-    {
-      "name": "Bhuwan Upadhyay",
-      "email": "bhuwan.upadhyay49@gmail.com"
-    }
-  ],
-  "keywords": [],
+  "main": "./index.js",
+  "module": "./index.js",
+  "typings": "./index.d.ts",
   "dependencies": {
     "@angular/animations": "^4.3.5",
     "@angular/common": "^4.3.5",
@@ -45,7 +33,8 @@
     "reflect-metadata": "0.1.10",
     "rxjs": "^5.4.3",
     "systemjs": "^0.20.18",
-    "zone.js": "^0.8.16"
+    "zone.js": "^0.8.16",
+    "ng4-core": "1.0.7"
   },
   "devDependencies": {
     "@types/hammerjs": "2.0.34",
@@ -105,5 +94,8 @@
     "webpack-merge": "2.6.1",
     "wsrv": "0.1.7"
   },
-  "license": "MIT"
+  "keywords": [
+    "webscript"
+  ],
+  "license": "Apache-2.0"
 }
