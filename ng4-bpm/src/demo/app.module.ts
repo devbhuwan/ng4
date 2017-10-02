@@ -3,7 +3,6 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {Ng4BpmModule} from "../app";
-import {Ng4CoreModule} from "../../../ng4-core/dist/lib/index";
 
 @NgModule({
   declarations: [
@@ -11,7 +10,6 @@ import {Ng4CoreModule} from "../../../ng4-core/dist/lib/index";
   ],
   imports: [
     BrowserModule,
-    Ng4CoreModule.forRoot({}),
     Ng4BpmModule.forRoot({})
   ],
   providers: [],

@@ -66,3 +66,11 @@ typings/
 **/dist/
 !/npm/localNpm.sh
 /npm
+**/src/**/*.js
+**/src/**/*.map
+*.iml
+**/src/**/*.ngsummary.json
+**/src/**/*.ngfactory.ts
+**/src/**/*.scss.shim.ngstyle.ts
+**/dist/
+*.tgz

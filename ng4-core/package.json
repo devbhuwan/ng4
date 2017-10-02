@@ -1,6 +1,6 @@
 {
   "name": "ng4-core",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "license": "MIT",
   "main": "app/index.js",
   "module": "app/index.js",
