@@ -48,3 +48,4 @@ Thumbs.db
 **/src/**/*.ngfactory.ts
 **/src/**/*.scss.shim.ngstyle.ts
 **/dist/
+*.tgz

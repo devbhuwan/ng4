@@ -64,3 +64,5 @@ typings/
 **/src/**/*.ngfactory.ts
 **/src/**/*.scss.shim.ngstyle.ts
 **/dist/
+!/npm/localNpm.sh
+/npm

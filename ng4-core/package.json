@@ -1,5 +1,5 @@
 {
-  "name": "ng4core",
+  "name": "ng4-core",
   "version": "1.0.0",
   "license": "MIT",
   "main": "app/index.js",
@@ -24,7 +24,7 @@
     "pub:lib": "npm run build:lib && npm publish dist",
     "pack:lib": "npm run build:lib && cd dist && npm pack && copyfiles *.tgz ../ && cd .. && rimraf dist/*.tgz"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^4.2.4",
     "@angular/common": "^4.2.4",

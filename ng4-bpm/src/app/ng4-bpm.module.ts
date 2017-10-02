@@ -7,19 +7,13 @@ import {TranslateLoader, TranslateModule, TranslateService} from "@ngx-translate
 import {HttpClientModule} from "@angular/common/http";
 import {TranslateStore} from "@ngx-translate/core/src/translate.store";
 import {Ng4BpmComponent} from './ng4-bpm/ng4-bpm.component';
-
-export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
-}
+import {Ng4CoreModule} from "../../../ng4-core/dist/lib/ng4-core.module";
 
 @NgModule({
   imports: [
     CommonModule,
     HttpClientModule,
-    TranslateModule.forChild({
-      loader: {provide: TranslateLoader, useFactory: createTranslateLoader, deps: [HttpClient]},
-      isolate: true
-    })
+    Ng4CoreModule.forRoot({})
   ],
   declarations: [Ng4BpmComponent],
   exports: [Ng4BpmComponent],
@@ -31,8 +25,7 @@ export class Ng4BpmModule {
     return {
       ngModule: Ng4BpmModule,
       providers: [
-        {provide: NG4BPM_CONFIG, useValue: config},
-        TranslateService, TranslateStore, HttpClient
+        {provide: NG4BPM_CONFIG, useValue: config}
       ],
     };
   }
