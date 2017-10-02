@@ -3,8 +3,12 @@ import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'ng4-core-component',
-  templateUrl: './ng4-core.component.html',
-  styleUrls: ['./ng4-core.component.scss']
+  template: `
+  <p>
+    ng4-core works!
+  </p>
+  {{'hello' | translate}}
+  `
 })
 @Injectable()
 export class Ng4CoreComponent implements OnInit {
