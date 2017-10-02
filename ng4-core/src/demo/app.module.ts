@@ -1,7 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {Ng4CoreModule} from "../app";
 
 @NgModule({
@@ -10,9 +10,10 @@ import {Ng4CoreModule} from "../app";
   ],
   imports: [
     BrowserModule,
-    Ng4CoreModule.forRoot({})
+    Ng4CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

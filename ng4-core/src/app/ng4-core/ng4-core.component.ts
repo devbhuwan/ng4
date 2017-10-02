@@ -14,7 +14,6 @@ export class Ng4CoreComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.translateService.setDefaultLang("ar");
     console.log("Default Lang " + this.translateService.getDefaultLang());
   }
 
