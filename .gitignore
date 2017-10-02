@@ -63,3 +63,4 @@ typings/
 *.ngsummary.json
 *.ngfactory.ts
 *.scss.shim.ngstyle.ts
+**/dist/
