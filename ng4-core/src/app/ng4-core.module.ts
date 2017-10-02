@@ -1,7 +1,7 @@
 import {ModuleWithProviders, NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {Ng4CoreComponent} from './ng4-core.component';
-import {NG4CORE_CONFIG, Ng4CoreConfig} from "./config";
+import {Ng4CoreComponent} from './ng4-core/ng4-core.component';
+import {NG4CORE_CONFIG, Ng4CoreConfig} from "./ng4-core/config";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {HttpClient} from "@angular/common/http";
 import {TranslateLoader, TranslateModule, TranslateService} from "@ngx-translate/core";
@@ -10,8 +10,7 @@ import {TranslateStore} from "@ngx-translate/core/src/translate.store";
 
 
 export function createTranslateLoader(http: HttpClient) {
-  let translateHttpLoader = new TranslateHttpLoader(http, '/assets/i18n/', '.json');
-  return translateHttpLoader;
+  return new TranslateHttpLoader(http, '/assets/i18n/', '.json');
 }
 
 @NgModule({
