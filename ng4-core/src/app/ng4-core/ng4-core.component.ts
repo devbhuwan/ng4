@@ -2,7 +2,7 @@ import {Component, Injectable, OnInit} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
 
 @Component({
-  selector: 'app-ng4-core',
+  selector: 'ng4-core-component',
   templateUrl: './ng4-core.component.html',
   styleUrls: ['./ng4-core.component.scss']
 })

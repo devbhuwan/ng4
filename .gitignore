@@ -60,7 +60,7 @@ typings/
 **/.idea/
 **/package-lock.json
 *.iml
-*.ngsummary.json
-*.ngfactory.ts
-*.scss.shim.ngstyle.ts
+**/src/**/*.ngsummary.json
+**/src/**/*.ngfactory.ts
+**/src/**/*.scss.shim.ngstyle.ts
 **/dist/
