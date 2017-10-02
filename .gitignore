@@ -62,3 +62,4 @@ typings/
 *.iml
 *.ngsummary.json
 *.ngfactory.ts
+*.scss.shim.ngstyle.ts
