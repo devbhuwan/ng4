@@ -2,10 +2,14 @@ import {ModuleWithProviders, NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {Ng4BpmConfig} from "./ng4-bpm/config";
 import {Ng4BpmComponent} from './ng4-bpm/ng4-bpm.component';
+import {TranslateLoader, TranslateModule, TranslateService} from "@ngx-translate/core";
+import { Ng4CoreModule } from "ng4-core";
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    TranslateModule,
+    Ng4CoreModule.forRoot({})
   ],
   declarations: [Ng4BpmComponent],
   exports: [Ng4BpmComponent],

@@ -3,6 +3,7 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {Ng4BpmModule} from "../app";
+import {TranslateLoader, TranslateModule, TranslateService} from "@ngx-translate/core";
 import {Ng4CoreModule} from 'ng4-core'
 
 @NgModule({
@@ -11,6 +12,7 @@ import {Ng4CoreModule} from 'ng4-core'
   ],
   imports: [
     BrowserModule,
+    TranslateModule,
     Ng4CoreModule.forRoot({}),
     Ng4BpmModule.forRoot({})
   ],
