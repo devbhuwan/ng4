@@ -12,7 +12,6 @@ import {Ng4CoreModule} from 'ng4-core'
   ],
   imports: [
     BrowserModule,
-    TranslateModule,
     Ng4CoreModule.forRoot({}),
     Ng4BpmModule.forRoot({})
   ],
