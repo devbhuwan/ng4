@@ -1,24 +1,23 @@
 import {Component, Injectable, OnInit} from '@angular/core';
-import {TranslateService} from "@ngx-translate/core";
+import {TranslationService} from "../services/translation.service";
 
 @Component({
   selector: 'ng4-core-component',
   template: `
-  <p>
-    ng4-core works!
-  </p>
-  {{'hello' | translate}}
+    <p>
+      ng4-core works!
+    </p>
+    {{'hello' | translate}}
   `
 })
 @Injectable()
 export class Ng4CoreComponent implements OnInit {
 
-  constructor(private translateService: TranslateService) {
+  constructor(private translateService: TranslationService) {
 
   }
 
   ngOnInit() {
-    console.log("Default Lang " + this.translateService.getDefaultLang());
   }
 
 }

@@ -65,7 +65,6 @@ typings/
 **/src/**/*.scss.shim.ngstyle.ts
 **/dist/
 !/npm/localNpm.sh
-/npm
 **/src/**/*.js
 **/src/**/*.map
 *.iml
