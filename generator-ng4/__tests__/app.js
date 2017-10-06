@@ -11,7 +11,7 @@ describe('generator-ng4:app', () => {
 
   it('creates files', () => {
     assert.file([
-      'dummyfile.txt'
+      'gulpfile.js'
     ]);
   });
 });
