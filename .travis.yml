@@ -3,7 +3,7 @@ sudo: false
 node_js:
   - "6.11.4"
   - "iojs"
-install:
-  - npm install
 script:
+  - cd ng4-core
+  - npm install
   - npm run pub
