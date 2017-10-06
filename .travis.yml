@@ -1,9 +1,13 @@
 language: node_js
+deploy:
+  provider: npm
+  email: bhuwan.upadhyay49@gmail.com
+  api_key:
+    secure: b2aGs+MWCO5bkfRwsxXRRkw4kFZBcGRug8tOAKobGAyt3DzC8UQLYOMVRJtfxPJEjweCLJ9HHweu/5mLQUuZGWf+57NT+L0+1fmp0UW5kk7BHEqY+R+VbS98y6cDqnNduLSf2yND04v5f3CgkXMebSEghzXJoWFYOd/2/A8fCFh5LECNRTo9D+lode5kppBwcNEB5yu4BnsUmU2NSBp1f6HMdSh0ROHAbShOmnwJndrwgxYakmZ4QIIpGeM5P5vPr0Zll/pkoVJlHhkjpcu43NBukA3X95itg1bkeIhMQpTcUdsLEMedUanGuw0AfuMaLZxFHxzqSGGbpZJ1iM+l9m4jBbC8J+wjiuUNXfMccPyO5VFXeTMzvPgx88Jy1KAnMJniMCX9cTqB8wrjS1sNv6RWlR58A94fOl4IZwJ08D818Du8JTuQEVf8pZkZawHkEbIqPCFowrU8DwsVZQ9FVRoHTuYbAHqHUiFPNjy23wvN6Ea8ov00Wel8zHp2HIEpbxQiBcb0WHbZir9L63OZ1geRTw18NSQC3pMH/a6Ud6Bj2LLPR8UH5+s9r1Zt5L8n25WJbbIu6fDeb4zBiqGjCaYKaDnSVthSEqdtXqxD1hcoVpGngM3G/PLbmRO/E3D15yhndMNn6we8rR24CdazFhEUGKX3GOHmYY8jaQ3xyis=
 sudo: false
 node_js:
-  - "6.11.4"
-  - "iojs"
+- 6.11.4
 script:
-  - cd ng4-core
-  - npm install
-  - npm run pub
+- cd ng4-core
+- npm install
+- npm run pub
