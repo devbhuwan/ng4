@@ -13,6 +13,6 @@ script:
 - cd ng4-core
 - npm install
 - npm run build:lib
-- cd ng4-core/../generator-ng4
+- cd ../generator-ng4
 - npm install
 - npm run build
