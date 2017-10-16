@@ -30,15 +30,3 @@ npm link
 yo ng4
 ```
 
-
-     _-----_     
-    |       |    ╭──────────────────────────╮
-    |--(o)--|    │    Welcome to the epic   │
-   `---------´   │ generator-ng4 generator! │
-    ( _´U`_ )    ╰──────────────────────────╯
-    /___A___\   /
-     |  ~  |     
-   __'.___.'__   
- ´   `  |° ´ Y ` 
-
-? What's the name of your component? 
