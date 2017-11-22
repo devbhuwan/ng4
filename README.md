@@ -19,8 +19,8 @@ ng serve
 ```
 
 * Generator-Ng4
-- Generator for ng4 module strucutre having ng4-core module dependency using this
-  generator we can easily generator our custom module. 
+- Generator for ng4 based other module having ng4-core core module dependency. 
+  By using this generator we can easily generator our custom module. 
 
 ```
 npm install -g yo
